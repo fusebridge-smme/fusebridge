@@ -81,7 +81,7 @@ export default function Footer() {
             &copy; {currentYear} Fuse Bridge. All rights reserved.
             <span className="md:inline-block md:ml-4 mt-2 md:mt-0 block text-orange">
               {/* Made with passion by Mvl prem */}
-              All rights Reserved
+              India
             </span>
           </p>
         </div>
