@@ -1,12 +1,16 @@
 @import "tailwindcss";
 @import "tailwindcss/theme";
 
-@theme {
+/* @theme {
+  --color-smoky-black: #0a0903;
+  --color-orange: #ff8200;
+  --color-vanilla: #ffeaae;
+} */
+:root {
   --color-smoky-black: #0a0903;
   --color-orange: #ff8200;
   --color-vanilla: #ffeaae;
 }
-
 /* Nav link hover: underline + left‑to‑right color wipe (desktop only) */
 
 .nav-link-transition {
