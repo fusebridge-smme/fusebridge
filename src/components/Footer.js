@@ -20,6 +20,7 @@ const contactInfo = {
   phone: "+91 9640416345",
   city: "Hyderabad, India",
   instagram: "fusebridge",
+  facebook: "fusebridge",
 };
 
 export default function Footer() {
@@ -73,7 +74,19 @@ export default function Footer() {
               <SimpleInstagramIcon className="w-8 h-8" />
             </Link>
           </div>
+            <div className="col-span-1">
+            <h3 className="text-2xl font-bold text-orange mb-4">Connect</h3>
+            <Link
+              href={`https://facebook.com/${contactInfo.facebook}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center text-vanilla hover:text-orange hover:border-orange transition duration-200"
+            >
+              <SimpleFacebookIcon className="w-8 h-8" />
+            </Link>
+          </div>
         </div>
+
 
         {/* Separator and Copyright */}
         <div className="border-t border-vanilla pt-8">
