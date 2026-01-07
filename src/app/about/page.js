@@ -25,7 +25,8 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto">
             <header className="text-center mb-16">
               <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-vanilla">
-                Fusing Strategy, Bridging Success.
+                {/* Fusing Strategy, Bridging Success. */}
+                Fuse Helps you to bring into the digital world 
               </h1>
             </header>
 
